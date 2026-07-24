@@ -65,6 +65,12 @@ resource "aws_instance" "my_simple_terra_instance"{
     volume_type = "gp3"
     volume_size = 25
   }
+  lifecycle {
+    create_before_destroy = true
+    ignore_changes = [
+      tags
+    ]
+  }
    tags = {
     Name = "Anshul-terra-auto-server-${count.index+1}"
   }

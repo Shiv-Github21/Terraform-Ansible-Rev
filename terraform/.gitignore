@@ -3,8 +3,9 @@ terraform.tfstate.backup
 terraform/.terraform.lock.hcl 
 
 # SSH keys
-keys/
 git-keys/
+keys/
+*.pem
 
 # Terraform
 .terraform/

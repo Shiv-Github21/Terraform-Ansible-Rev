@@ -50,7 +50,7 @@ resource "aws_vpc_security_group_egress_rule" "my_egress_rule_ssh"{
 
 resource "aws_key_pair" "my_key"{
     key_name = "shiv_terra_key_simple"
-    public_key = file("/home/shiv/Devops-full-Learning/Terraform-Ansible/terraform/keys/shiv_terra_key_simple.pub")
+    public_key = file("${path.module}/keys/shiv_terra_key_simple.pub")
 }
 
 resource "aws_instance" "my_simple_terra_instance"{

@@ -11,10 +11,5 @@ terraform {
       version = "~> 4.0"
     }
   }
-    backend "s3" {
-     bucket = "remote-state-shiv-server-12345"
-     key = "terraform/terraform.tfstate"
-     region = "us-west-2"
-     use_lockfile = true
-  }
+  
 }

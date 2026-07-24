@@ -4,6 +4,7 @@ terraform/.terraform.lock.hcl
 
 # SSH keys
 keys/
+git-keys/
 
 # Terraform
 .terraform/

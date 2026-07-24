@@ -1,0 +1,12 @@
+terraform.tfstate
+terraform.tfstate.backup
+terraform/.terraform.lock.hcl 
+
+# SSH keys
+keys/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log

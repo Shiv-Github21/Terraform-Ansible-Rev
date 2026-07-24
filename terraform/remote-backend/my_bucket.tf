@@ -1,3 +1,3 @@
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "Udaan-bucket-007"
+  bucket = "Udaan_bucket_007"
 }

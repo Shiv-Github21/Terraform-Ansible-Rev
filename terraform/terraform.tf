@@ -12,7 +12,7 @@ terraform {
     }
   }
     backend "s3" {
-     bucket = "Udaan_bucket_007"
+     bucket = "udaanbucket007"
      key = "terraform/terraform.tfstate"
      region = "us-west-2"
      use_lockfile = true

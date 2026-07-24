@@ -10,7 +10,7 @@ variable  aws_availability_zone {
 }
 variable server_count {
   type        = number
-  default     = "3"
+  default     = "2"
   description = "No of Instance creating"
 }
 

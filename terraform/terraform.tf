@@ -12,7 +12,7 @@ terraform {
     }
   }
     backend "s3" {
-     bucket = "remote-state-shiv-server-12345"
+     bucket = "Udaan-bucket-007"
      key = "terraform/terraform.tfstate"
      region = "us-west-2"
      use_lockfile = true
